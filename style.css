@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&family=Oswald&family=Roboto+Condensed:wght@300;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@500;700&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Kanit:wght@500;600&family=M+PLUS+2&family=Mochiy+Pop+P+One&family=Oswald&family=Overpass&family=Roboto+Condensed:wght@300;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@500;700&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Mochiy+Pop+P+One&family=Oswald&family=Roboto+Condensed:wght@300;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@500;700&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Kanit:wght@500;600&family=Mochiy+Pop+P+One&family=Oswald&family=Roboto+Condensed:wght@300;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@500;700&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Kanit:wght@500;600&family=M+PLUS+2&family=Mochiy+Pop+P+One&family=Oswald&family=Roboto+Condensed:wght@300;400&family=Varela+Round&display=swap");
+html {
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  height: 100%;
+  background-color: #f6e3e3;
+  background-color: #000000;
+  opacity: 1;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #000000 20%,
+      #000000 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #000000 20%,
+        #000000 80%,
+        transparent 80%,
+        transparent
+      )
+      62.5px 62.5px,
+    linear-gradient(#dddddd 5px, transparent 5px) 0 -2.5px,
+    linear-gradient(90deg, #dddddd 5px, #000000 5px) -2.5px 0;
+  background-size: 125px 125px, 125px 125px, 62.5px 62.5px, 62.5px 62.5px;
+}
+
+/*/////////////////==================CONTENT=====================//////////////////*/
+.content .logo {
+  display: flex;
+  justify-content: center;
+}
+.content .logo img {
+  width: 16vw;
+  height: 11vw;
+}
+.content {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 1vw;
+  margin: 2vw 7vw;
+  padding: 1vw 3vw;
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  opacity: 1;
+  color: rgb(54, 54, 54);
+}
+* {
+  mask-image: none;
+  opacity: 1 !important;
+}
+.content .hackAtHome {
+  display: flex;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 90px;
+  justify-content: center;
+}
+.content p {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.countdown {
+  display: flex;
+  margin: 0 10vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.element .title {
+  font-size: 50px;
+  font-family: "Anton";
+  font-weight: 400;
+}
+.element h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Kanit", bold;
+  font-weight: 500;
+}
